@@ -1,0 +1,3 @@
+module Main {
+    requires readInFileOutFromFile;
+}
