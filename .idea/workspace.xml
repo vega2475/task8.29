@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe83eee-332b-4ab1-8662-ced526d7e469" name="Changes" comment="v0.01 read matrix from file">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/Main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readInFileOutFromFile/readInFileOutFromFile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9fe83eee-332b-4ab1-8662-ced526d7e469" name="Changes" comment="nichego ne ponyatnodfdsf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -81,7 +76,9 @@
       <workItem from="1667570155481" duration="137000" />
       <workItem from="1667573930471" duration="656000" />
       <workItem from="1667636464434" duration="15000" />
-      <workItem from="1667730736908" duration="4599000" />
+      <workItem from="1667730736908" duration="7218000" />
+      <workItem from="1667758385039" duration="1022000" />
+      <workItem from="1667776786637" duration="3447000" />
     </task>
     <task id="LOCAL-00001" summary="v0.01 read matrix from file">
       <created>1667570222203</created>
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667570222203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nichego ne ponyatno">
+      <created>1667735411276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667735411276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +114,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="v0.01 read matrix from file" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.01 read matrix from file" />
+    <MESSAGE value="nichego ne ponyatno" />
+    <MESSAGE value="nichego ne ponyatnodfdsf" />
+    <option name="LAST_COMMIT_MESSAGE" value="nichego ne ponyatnodfdsf" />
   </component>
 </project>
