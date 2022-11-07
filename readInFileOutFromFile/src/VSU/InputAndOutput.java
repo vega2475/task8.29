@@ -3,7 +3,7 @@ package VSU;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-
+import java.lang.ArrayIndexOutOfBoundsException;
 
 import static java.lang.System.out;
 
@@ -18,26 +18,25 @@ public class InputAndOutput {
         }
         int matrixHeight = lines.size();
 
-        Integer[][] matrix = new Integer[matrixHeight][];
+        int[][] matrix = new int[matrixHeight][];
 
         for(int i = 0; i < matrixHeight; ++i) {
             String[] nums = lines.get(i).split("\s*,\s*");
-            matrix[i] = new Integer[nums.length];
+            matrix[i] = new int[nums.length];
             for(int j = 0; j < nums.length; ++j) {
-                matrix[i][j] = Integer.valueOf(nums[j]);
+                matrix[i][j] = Integer.parseInt(nums[j]);
             }
         }
-
+        int[][] matrixForOutput = calc(matrix);
         try(PrintWriter out = new PrintWriter(new FileOutputStream("output.txt"))) {
             for (int i = 0; i < matrixHeight; ++i) {
-               out.println(Arrays.toString(matrix[i]).replaceAll("^\\[|]$", ""));
-
-
+               out.println(Arrays.toString(matrixForOutput[i]).replaceAll("^\\[|]$", ""));
             }
         }
-        catch (IOException ex){
-            System.out.println(ex.getMessage());
+        catch (ArrayIndexOutOfBoundsException ex){
+            System.out.println("");
         }
+        //out.println(Arrays.toString(matrixForOutput).replaceAll("^\\[|]$", ""));
     }
 
     int[][] calc(int[][] array) {
@@ -108,7 +107,7 @@ public class InputAndOutput {
             }
             r++;
         }
-
+        //out.println(Arrays.toString(array).replaceAll("^\\[|]$", ""));
         return result;
     }
 
