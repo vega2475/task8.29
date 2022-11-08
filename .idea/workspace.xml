@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe83eee-332b-4ab1-8662-ced526d7e469" name="Changes" comment="сделать такие же преобразования с массивом calc как и с массивом matrix чтобы работала ступенчатая версия">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+    <list default="true" id="9fe83eee-332b-4ab1-8662-ced526d7e469" name="Changes" comment="fix bug with exception index of array">
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/CS/VEGA/InputAndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/VSU/CS/VEGA/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readInFileOutFromFile/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/readInFileOutFromFile/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1667776786637" duration="3542000" />
       <workItem from="1667780480353" duration="1806000" />
       <workItem from="1667848954747" duration="1362000" />
-      <workItem from="1667905779225" duration="628000" />
+      <workItem from="1667905779225" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="v0.01 read matrix from file">
       <created>1667570222203</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667782261297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix bug with exception index of array">
+      <created>1667906506559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667906506559</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +141,8 @@
     <MESSAGE value="nichego ne ponyatnodfdsf" />
     <MESSAGE value="v0.02" />
     <MESSAGE value="сделать такие же преобразования с массивом calc как и с массивом matrix чтобы работала ступенчатая версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделать такие же преобразования с массивом calc как и с массивом matrix чтобы работала ступенчатая версия" />
+    <MESSAGE value="fix bug with exception index of array" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with exception index of array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

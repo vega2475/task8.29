@@ -1,4 +1,4 @@
 module readInFileOutFromFile {
-    exports VSU;
+    exports VSU.CS.VEGA;
 
 }

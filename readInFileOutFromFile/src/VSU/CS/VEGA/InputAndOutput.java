@@ -1,4 +1,4 @@
-package VSU;
+package VSU.CS.VEGA;
 
 import java.io.*;
 import java.util.ArrayList;
