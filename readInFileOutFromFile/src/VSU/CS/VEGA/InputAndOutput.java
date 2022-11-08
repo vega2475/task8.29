@@ -109,6 +109,7 @@ public class InputAndOutput {
             r++;
         }
         //out.println(Arrays.toString(array).replaceAll("^\\[|]$", ""));
+
         return result;
     }
 
