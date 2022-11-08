@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.ArrayIndexOutOfBoundsException;
 
-import static java.lang.System.out;
+
 
 public class InputAndOutput {
 
@@ -33,9 +33,10 @@ public class InputAndOutput {
                out.println(Arrays.toString(matrixForOutput[i]).replaceAll("^\\[|]$", ""));
             }
         }
-        catch (ArrayIndexOutOfBoundsException ex){
-            System.out.println("");
+        catch (ArrayIndexOutOfBoundsException ignored){
         }
+
+
         //out.println(Arrays.toString(matrixForOutput).replaceAll("^\\[|]$", ""));
     }
 
